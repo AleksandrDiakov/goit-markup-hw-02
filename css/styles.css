@@ -1,0 +1,38 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hero-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.navigation-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.navigation-logo-web {
+  color: var(--accent-color);
+}
+
+.navigation-logo-studio {
+  color: var(--primary-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* li {
+  list-style-type: none;
+} */
+
+ 
