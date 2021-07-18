@@ -3,6 +3,7 @@
   --secondary-text-color: #757575;
   --hero-text-color: #ffffff;
   --accent-color: #2196f3;
+  --background-color: #2F303A;
 }
 
 body {
@@ -11,14 +12,13 @@ body {
   background-color: #ffffff;
 }
 
-li {
-    list-style-type: none;
+.list-style {
+  list-style-type: none;
 }
 
 /* header */
 .navigation-logo {
   font-family: Raleway;
-  
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -35,7 +35,6 @@ li {
 }
 
 .link {
-  text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -85,6 +84,7 @@ button {
 }
 
 .hero{
+  background: var(--background-color)
 }
 
 .hero-title {
@@ -149,6 +149,7 @@ button {
 .team{
 
 }
+
 .team-title{
   font-weight: bold;
   font-size: 36px;
@@ -184,10 +185,10 @@ color: var(--secondary-text-color);
 }
 
 /* body portfolio.html */
-
 .filter {
 
 }
+
 .filter-list {
 
 }
@@ -219,17 +220,23 @@ color: var(--secondary-text-color);
 .gallary {
 
 }
+
+.galary-link{
+  text-decoration: none;
+}
+
 .gallary-image {
 
 }
+
 .gallary-project {
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--primary-text-color);
-
 }
+
 .gallary-kind {
 font-size: 16px;
 line-height: 2;
@@ -240,7 +247,7 @@ color: var(--secondary-text-color);
 
 /* footer */
 footer{
-  background-color: #2F303A;;
+  background: var(--background-color)
 }
 
 .footer-logo {
@@ -261,7 +268,6 @@ footer{
 }
 
 .address {
- 
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -269,7 +275,6 @@ footer{
 }
 
 .footer-contact {
- 
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
