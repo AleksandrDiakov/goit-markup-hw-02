@@ -37,6 +37,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .link:hover,
@@ -74,18 +75,117 @@ body {
   color: var(--accent-color);
 }
 
-
-/* body */
-
+/* body index.html*/
 button {
   cursor: pointer;
 }
 
+.hero{
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+}
+
+.hero-button{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-text-color);
+  border: none;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.list-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list-text{
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+}
+
+.work{
+
+}
+
+.work-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.work-description {
+
+}
+
+.work-list {
+
+}
+
+.team{
+
+}
+.team-title{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-description{
+
+}
+.team-list{
+
+}
+.team-photo{
+
+}
+.team-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-position{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+
+/* body portfolio.html */
+
 
 /* footer */
+
 .footer-logo {
   font-family: Raleway;
-  
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
