@@ -63,6 +63,7 @@ body {
   text-decoration: none;
   color: var(--secondary-text-color);
 }
+
 .contact-call {
   text-decoration: none;
   color: var(--secondary-text-color);
@@ -185,6 +186,10 @@ color: var(--secondary-text-color);
 }
 
 /* body portfolio.html */
+
+.gallary {
+
+}
 .filter {
 
 }
@@ -194,6 +199,7 @@ color: var(--secondary-text-color);
 }
 
 .filter-button{
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -217,7 +223,7 @@ color: var(--secondary-text-color);
   border-radius: 4px;
 }
 
-.gallary {
+.gallary-list {
 
 }
 
@@ -244,7 +250,6 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 
-
 /* footer */
 footer{
   background: var(--background-color)
@@ -269,6 +274,7 @@ footer{
 
 .address {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--hero-text-color);
@@ -299,4 +305,3 @@ footer{
 .footer-call:hover,
 .footer-call:focus {
   color: var(--accent-color);
-
